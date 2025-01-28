@@ -1,0 +1,184 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f3f4f6;
+  color: #333333;
+}
+
+/* Navbar */
+
+.navbar .nav-link {
+  color: #e1f5f3; /* Blanco para el texto */
+}
+
+.navbar .nav-link:hover {
+  color: #2a316e; /* Blanco claro cuando se pasa el mouse */
+}
+
+.contact-info {
+  color: #6c5ce7;
+  font-size: 1.1rem;
+  font-style: italic; /* Cursiva */
+  font-family: "Georgia", serif;
+}
+
+/* cabeza rosada */
+.profile-header {
+  background-color: #f9e4ff;
+  border-radius: 8px;
+  padding: 40px 20px; /* Se mantiene el padding */
+  width: 100%; /* Asegura que ocupe todo el ancho */
+  box-sizing: border-box; /* Asegura que el padding no afecte el ancho */
+}
+
+.profile-header .profile-container {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px; /* el rosado se mueve a un lado*/
+  margin: 0 auto;
+}
+
+.profile-img {
+  width: 300px; /* tamaño de la imagen */
+  height: 300px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+
+.profile-header h1 {
+  color: #6c5ce7;
+  font-family: "Roboto", sans-serif;
+  font-size: 3.5rem; /* tamaño del letra cabezal */
+  margin-top: 20px;
+}
+
+.subtitle {
+  color: #6c5ce7;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 5px 0;
+  font-style: italic; /* Cursiva */
+  font-family: "Georgia", serif; /* fuente más bonita */
+}
+
+.contact-info {
+  color: #6c5ce7;
+  font-size: 1.1rem;
+  font-style: italic;
+  font-family: "Georgia", serif;
+}
+
+.linkedin-link {
+  color: #0e76a8; /* LinkedIn */
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.linkedin-link:hover {
+  color: #76074b; /*  color al pasar el mouse */
+}
+
+.profile-header p {
+  margin: 10px 0;
+}
+
+/* Secciones */
+.section {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 40px 20px;
+  margin-bottom: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+  color: hsl(247, 74%, 63%);
+  border-bottom: 2px solid #6c5ce7;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+
+/* Estilos para el botón GitHub */
+.btn-github {
+  display: inline-block;
+  background-color: #ccc;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.btn-github:hover {
+  background-color: #999;
+}
+
+
+.icono {
+  width: 80px;
+  height: 50px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.icono:hover {
+  width: 120px;
+  height: 50px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.icono2 {
+  width: 80px;
+  height: 60px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.icono2:hover {
+  width: 120px;
+  height: 50px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.icono3 {
+  width: 80px;
+  height: 60px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.icono3:hover {
+  width: 120px;
+  height: 50px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.icono4 {
+  width: 70px;
+  height: 70px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.icono4:hover {
+  width: 120px;
+  height: 50px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+footer {
+  color: #fff;
+}
+
+/* Botón de navegación */
+.navbar-toggler-icon {
+  background-color: #fff;
+}
+

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Noelia❤️</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Mi CV</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#" onclick="showSection('general')"
+                >General</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" onclick="showSection('educacion')"
+                >Educación</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" onclick="showSection('experiencia')"
+                >Experiencia</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" onclick="showSection('portafolio')"
+                >Portafolio</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="profile-header text-center pt-5 mt-5">
+      <div class="container profile-container">
+        <div class="d-flex align-items-center">
+          <img
+            src="assets/img/yoo.jpeg"
+            class="rounded-circle img-fluid profile-img"
+            alt="Foto de Noelia Loayza Vilela"
+          />
+          <div class="ms-4">
+            <h1 class="mt-3">Noelia Yanina Loayza Vilela</h1>
+            <p class="subtitle">Administrador de Empresas</p>
+            <p class="subtitle">
+              Estudiante de Desarrollo Full Stack - Desafío Latam
+            </p>
+            <p class="contact-info">
+              Contacto: loayzanoelia.nylv@gmail.com | (+51) 937706969
+            </p>
+            <p>
+              <a
+                href="https://www.linkedin.com/in/noelia-yanina-loayza-vilela-6b13b1233/"
+                class="linkedin-link"
+                target="_blank"
+                >LinkedIn</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container mt-5">
+      <section id="general" class="section pt-5 mt-5">
+        <h2 class="section-title">Resumen Completo</h2>
+        <p>
+            Soy Administradora de Empresas, con tesis aprobada para el título de Técnico Profesional (en trámite), y actualmente estudio Desarrollo Full Stack JavaScript, buscando integrar mis conocimientos en administración con la tecnología que transforma el mundo empresarial.
+            Desde 2017, he acumulado experiencia en teleoperaciones, trabajando para empresas como Movistar, Claro y Entel en Perú. En 2018, fui promovida a Monitor de Calidad para Movistar Hogar, donde gestioné y monitorié el desempeño de más de 300 asesores, asegurando el cumplimiento de los estándares del cliente. También he trabajado en campañas internacionales para Vodafone, Másmovil y Yaztel, desempeñándome en ventas y BackOffice.
+        </p>
+        <p>    
+            Me considero una persona sociable, con habilidades de liderazgo, motivación y trabajo en equipo. Mi pasión por la gestión de personas y el desarrollo de equipos me ha llevado a buscar oportunidades en Recursos Humanos, donde pueda seguir contribuyendo a la formación y bienestar organizacional.
+        </p>
+        <p>
+            Mi formación en desarrollo Full Stack JavaScript me permite abordar la gestión de equipos con un enfoque innovador, combinando mi experiencia en administración con las herramientas digitales que facilitan la transformación de las organizaciones. Busco nuevas oportunidades para aplicar mi experiencia y seguir creciendo profesionalmente en el área de Recursos Humanos y tecnología.
+        </p>
+      </section>
+
+      <section id="educacion" class="section pt-5 mt-5">
+        <h2 class="section-title">Educación</h2>
+        <ul>
+            <li>
+                <strong>Desarrollador Full Stack en formación </strong> - Desafio Latam <a href="https://desafiolatam.com/" target="_blank"><img src="assets/img/desafio.png" alt="Desafío Latam" class="icono" /></a>
+              </li>
+          <li>
+            <strong>Egresada en Administración de Empresas</strong> - Zegel Ipae 
+            (2021 - 2024) <a href="https://www.zegel.edu.pe/" target="_blank"> <img src="assets/img/ipae.png" alt="ipae" class="icono2" /></a>
+          </li>
+          <li>
+            <strong>IV Ciclo en Ciencias de la Educación</strong> - Udep (2015 –
+            2018) <a href="https://www.udep.edu.pe/" target="_blank">  <img src="assets/img/usep.png" alt="udep" class="icono3" /></a>
+          </li>
+        </ul>
+        <h2 class="section-title">Certificaciones</h2>
+        <ul>
+          <li><strong>Asistente de Recursos Humanos</strong> Cámara de Comercio (2024)</li>
+          <li><strong>Finanzas para Emprendedores</strong> - Campus Romero (2024)</li>
+          <li><strong>Excel Intermedio</strong> - Campus Romero (2024)</li>
+        </ul>
+        <h2 class="section-title">Idiomas</h2>
+        <ul>
+            <li><strong>Portugues-intermedio</strong> Instituto Da Silva <a href="https://institutoportugues.org.pe/ target="_blank">  <img src="assets/img/dasilva.jpeg" alt="ipae" class="icono4" /></li></a>
+            <li><strong>Español nativo </strong> 
+          </ul>
+      </section>
+
+      <section id="experiencia" class="section pt-5 mt-5">
+        <h2 class="section-title">Experiencia</h2>
+        <ul>
+          <li>
+            <strong>Asesor de Rappitenderos</strong> - UBYCALL- Kayni.Com S.A.C.
+            (2023 - 2024)
+          </li>
+          <li>
+            <strong>Asesor Telefónico</strong> - BPO PERU S.A.C. (2022 - 2023)
+          </li>
+          <li>
+            <strong>Monitor de Calidad</strong> - COMDATA GROUP (2017 – 2020)
+          </li>
+          <li>
+            <strong>Asistente Administrativo</strong> - E.I José Eusebio Merino
+            y Vinces (2017)
+          </li>
+        </ul>
+      </section>
+
+      <section id="portafolio" class="section pt-5 mt-5">
+        <h2 class="section-title">Mis Proyectos</h2>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="assets/img/cv html.png"
+                class="card-img-top size-img"
+                alt="Proyecto 1"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  <p>Este proyecto forma parte integral de mi portafolio profesional y constituye un claro ejemplo de cómo se puede estructurar y diseñar una página web utilizando HTML de manera eficiente. En su desarrollo, se han implementado varios elementos clave que son fundamentales para la creación de un sitio web bien organizado y visualmente atractivo. Entre estos elementos, se destaca la correcta organización del contenido a través de listas tanto ordenadas como no ordenadas. Además, se ha incluido el uso de imágenes relevantes para mejorar la estética y funcionalidad del sitio.
+                </p>
+                <a href="https://github.com/NoeliaLoayza/Proyecto-1" class="btn-github" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="assets/img/pryl.png"
+                class="card-img-top"
+                alt="Proyecto 2"
+              />
+              <div class="card-body">
+                <p class="card-text"> 
+                    Este proyecto es una demostración de cómo integrar y aplicar CSS de manera efectiva para mejorar y optimizar la apariencia de una página web, haciendo que la experiencia visual y de navegación sea mucho más atractiva y profesional. A través del uso de CSS, se ha logrado una personalización detallada que eleva el diseño básico del HTML, permitiendo que la página no solo sea funcional sino también visualmente impactante. Uno de los aspectos destacados de este proyecto es la incorporación de una imagen de fondo cuidadosamente seleccionada, que aporta un toque visual único y atractivo a la página. 
+                </p> 
+                <a href="https://github.com/NoeliaLoayza/Proyecto-2" class="btn-github" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="assets/img/ti.png"
+                class="card-img-top"
+                alt="Proyecto 3"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                    En este proyecto utilicé la grilla responsiva de Bootstrap para adaptar la distribución de los cupones, mostrando una columna en dispositivos móviles y tres en pantallas más grandes. Apliqué las clases de colores y los márgenes/paddings correspondientes.
+                </p>
+                <a href="https://github.com/NoeliaLoayza/Proyecto-4---Bootstrap" class="btn-github" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="assets/img/iguana.png"
+                class="card-img-top"
+                alt="Proyecto 4"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                    Este proyecto está estructurado con un árbol de archivos ordenado para facilitar la organización y el mantenimiento del código. Utilicé Flexbox para posicionar los elementos como se indica en la maqueta, asegurando que los íconos de Font Awesome se integren correctamente en la sección de características. 
+                </p>
+                <a href="https://github.com/NoeliaLoayza/Proyecto-3---flex" class="btn-github" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="assets/img/forkeo francisco.jpeg"
+                class="card-img-top"
+                alt="Proyecto 4"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  Fokeos de proyecto 
+                </p>
+                <p> Forkei el proyecto de mi compañero Francisco (FranciBW.github.io), despues lo cloné e hice una modificación de color </p>
+                <a href="https://github.com/NoeliaLoayza/forkeonoe.github.io" class="btn-github" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="assets/img/forkeo y commit alejandro.jpeg"
+                class="card-img-top"
+                alt="Proyecto 5"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  Fokeos de proyecto
+                </p>
+                <p> Forkei el proyecto de mi compañero alejandro (alejandroham.github.io), despues lo cloné e hice una modificación de color </p>
+                <a href="https://github.com/NoeliaLoayza/forkeodealejandroham.github.io" class="btn-github" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer class="bg-secondary text-white text-center py-3 mt-4">
+      <p>
+        &copy; 2025 Noelia Loayza Vilela | Contacto: loayzanoelia.nylv@gmail.com
+      </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+
+      // Función para mostrar y ocultar las secciones
+      function showSection(sectionId) {
+        const sections = document.querySelectorAll(".section");
+        sections.forEach((section) => {
+          section.style.display = "none";
+        });
+
+        const selectedSection = document.getElementById(sectionId);
+        selectedSection.style.display = "block";
+      }
+
+      window.onload = () => {
+        showSection("general");
+      };
+    </script>
+  </body>
+</html>
